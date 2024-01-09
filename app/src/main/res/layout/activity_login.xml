@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:background="@drawable/etheron"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="648dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView23"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Kesempatan anda"-->
+        <!--        android:textColor="#C4FFFFFF"-->
+        <!--        android:textSize="12sp"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.337"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintVertical_bias="0.684" />-->
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Login System"
+            android:textColor="#EFF8FE"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="STMIK Mercusuar"
+            android:textColor="#EFF8FE"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgMercu"
+            android:layout_width="169dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/logo_mercusuar_trans" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="263dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_shape_login"
+            android:drawableRight="@drawable/orang"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#B7FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="263dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_shape_login"
+            android:drawableRight="@drawable/gembok"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="#B7FFFFFF"
+            android:visibility="visible"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="263dp"
+            android:layout_height="59dp"
+            android:text="Login"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#272525"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="263dp"
+            android:layout_height="58dp"
+            android:text="Sign Up"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#272525"
+            app:backgroundTint="@color/primaryColor2" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

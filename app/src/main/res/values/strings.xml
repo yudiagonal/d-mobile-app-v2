@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">yudiasmara</string>
+    <string name="title_activity_scrolling">Sejarah GO</string>
+    <string name="isi_konten">
+        "Apa Bahasa Pemrograman Go itu?
+
+Go adalah bahasa pemrograman open-source yang dibuat oleh Google pada tahun 2007. Tujuan pembuatan bahasa ini adalah untuk meningkatkan produktivitas para programmer dalam membuat aplikasi dengan memberikan sintaks yang mudah dipahami, performa yang tinggi, dan mendukung pemrograman konkuren. Go dirancang untuk memudahkan pembuatan aplikasi dalam lingkungan yang kompleks dan besar, seperti aplikasi web dan sistem operasi, dengan menggabungkan fitur-fitur dari bahasa pemrograman lainnya seperti C dan Python. Bahasa pemrograman ini memiliki beberapa fitur unggulan seperti garbage collector, penggunaan goroutine untuk pemrograman konkuren, dan dukungan untuk beberapa jenis data seperti array, slice, dan map. Go juga memiliki komunitas pengembang yang aktif, yang menghasilkan banyak library dan framework yang dapat membantu programmer dalam mengembangkan aplikasi dengan cepat.
+
+Sejarah Pembuatan Bahasa Pemrograman Go
+
+Bahasa pemrograman Go pertama kali dikembangkan oleh Google pada tahun 2007. Tim pengembang yang terdiri dari Robert Griesemer, Rob Pike, dan Ken Thompson merancang Go untuk mengatasi masalah dalam pengembangan perangkat lunak di lingkungan perusahaan seperti kompleksitas, kecepatan, dan keamanan. Google merilis Go sebagai open-source pada tahun 2009 dan membangun komunitas pengembang yang aktif. Pada tahun yang sama, Go diumumkan sebagai bahasa pemrograman resmi untuk pengembangan perangkat lunak internal Google. Bahasa pemrograman ini mulai populer di luar Google pada tahun 2010 ketika perusahaan lain mulai mengadopsinya. Go dirilis dalam versi 1.0 pada tahun 2012, menandai stabilitas dan kematangan bahasa pemrograman ini. Go terus berkembang dan menjadi bahasa pemrograman populer di kalangan pengembang perangkat lunak, digunakan untuk mengembangkan berbagai jenis aplikasi seperti perangkat lunak server, aplikasi web, dan perangkat lunak sistem.
+
+Kelebihan dan Kekurangan Bahasa Pemrograman Go
+
+Go memiliki beberapa kelebihan, di antaranya performa yang tinggi, mudah dipelajari, pemrograman konkuren, open-source, dan memiliki komunitas pengembang yang aktif. Namun, bahasa pemrograman ini juga memiliki beberapa kekurangan, seperti kurangnya dukungan terhadap paradigma OOP, kurangnya dukungan untuk generics, lingkungan pengembangan terbatas, dokumentasi yang kurang, dan kurangnya pengalaman di antara perusahaan.
+
+Fitur Utama Bahasa pemograman Go
+
+Go, bahasa pemrograman yang memiliki beberapa fitur utama, salah satunya adalah garbage collector yang efisien sehingga dapat mengoptimalkan penggunaan memori. Go juga menawarkan fitur pemrograman konkuren yang mudah digunakan, memungkinkan programmer untuk mengembangkan aplikasi yang berjalan secara paralel tanpa perlu menulis kode yang rumit. Selain itu, Go dirancang dengan sintaksis yang mudah dipahami dan mendukung beberapa jenis data seperti array, slice, dan map sehingga memudahkan programmer dalam mengelola data. Go juga didesain untuk memadukan fitur-fitur dari bahasa pemrograman lainnya seperti bahasa C dan bahasa Python, sehingga programmer dengan pengalaman dalam bahasa tersebut dapat dengan mudah belajar Go. Selain itu, Go juga bersifat open source, memiliki komunitas pengembang yang besar, dan memiliki sistem pemrosesan error yang kuat, sehingga memudahkan programmer dalam menangani error yang terjadi dalam aplikasi. Go juga dikembangkan dengan tujuan untuk memiliki performa yang cepat dan efisien, terutama dalam pengolahan data berskala besar dan fitur keamanan yang tinggi.
+
+Go juga dapat digunakan untuk mengembangkan aplikasi web dengan performa tinggi dan pengolahan data berskala besar, seperti backend web, microservices, pemrosesan data, aplikasi realtime, dan web scraping. Dalam pengembangan aplikasi web, Go dapat bekerja dengan teknologi lain seperti database SQL dan NoSQL, protokol HTTP, HTML, CSS, dan JavaScript. Go juga didukung oleh beberapa tools dan frameworks seperti GoLand, Revel, Gin, dan Beego untuk memudahkan programmer dalam mengembangkan aplikasi.
+
+Jadi, dengan fitur-fitur yang lengkap dan dukungan yang kuat dari komunitas pengembang dan tools yang mendukung, Go menjadi pilihan yang menarik untuk pengembangan aplikasi web yang skalabilitas dan performa tinggi"
+    </string>
+    <string name="hak_cipta">
+
+        "Copyright Yudi Asmara - STMIK MERCUSUAR"
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_konten_scrolling">Sejarah Go</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    KONTEN UNTUK TAB ACTIVITY-->
+    <string name="biodatasaya">
+        "\n"
+        "Nama\t\t\t\t\t: Yudi Asmara\n\n"
+        "Hobi\t\t\t\t\t\t: Meluruskan pinggang\n"
+        "\t\t\t\t\t\t\t\t\t sambil memejamkan mata\n\n"
+        "Domisili\t\t\t\t: Bekasi"
+    </string>
+
+    <string name="pendidikansaya">
+        "\n\n"
+        "SD\t\t\t\t\t: SDN KARANGREJA 02\n\n"
+        "SMP\t\t\t: SMP N 3 CIPARI\n\n"
+        "SMK\t\t\t: SMK SANDIKTA Bekasi"
+    </string>
+
+    <string name="pengalamansaya">
+        "\n"
+        "2022\t\t: Magang Junior Programmer\n"
+        "\t\t\t\t PT. Medika Solusi Pratamajaya"
+
+    </string>
+    <string name="profilesaya">
+        "\n"
+        "NAMA\t\t\t\t\t\t\t\t\t\t\t: Yudi Asmara\n\n"
+        "NIM\t\t\t\t\t\t\t\t\t\t\t\t\t: 2355201568\n\n"
+        "PRODI\t\t\t\t\t\t\t\t\t\t\t: Teknik Informatika\n\n"
+        "MOTIVASI HIDUP\t\t\t\t: Hidup Seperti Dede Inoen"
+    </string>
+</resources>

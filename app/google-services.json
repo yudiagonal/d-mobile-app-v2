@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236203274710",
+    "project_id": "yudiasmara",
+    "storage_bucket": "yudiasmara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236203274710:android:87da9730ad05301dbc7477",
+        "android_client_info": {
+          "package_name": "com.yudiasmara2355201568.yudiasmara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJJGkgT9Otlf81ArUtAwz6yOPHSb28fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
